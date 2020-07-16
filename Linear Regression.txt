@@ -1,0 +1,21 @@
+Linear Regression:
+
+y=f(x), where x is a independent variable, where as y is dependent variable, to know the relationship between the two input variables
+
+y=a+bx,relation between x and y, if x value is known then y value can be predicted.
+
+Measure of Good fit: Actual value and predicted value
+
+The difference between actual and predicted value is called as Residual. 
+
+Reduce the residual: Subtracting actual value by predictive value with whole square + all the remaining actual values -(minus) predictive value with whole square. 
+
+Sum up the results of all the predicted lines. 
+
+Compare all the result of the sum of the residual squares to know which is low valued result. 
+
+Result with low value is the best line of fit.  
+
+For practise, implement using Python/R
+
+
