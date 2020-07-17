@@ -1,0 +1,23 @@
+Logistic Regression is used for classification.
+
+The difference between Linear Regression and Logistic Regression is Linear Regression normally used to predict numerical values but whereas Logistic Regression is used to classify or to find out categorical value.
+
+It gives a probability between 0 and 1. Hence we can easily identify in which class it goes. 
+
+For example:
+
+What is the probabilty of geting cancer(Yes/No), if a patient smokes(Yes/NO).
+Smoke is a indepenent value and Cancer is a dependent value. 
+Assume, If Threshold is 0.5 and the probabilty value we get is 0.75, This means that a pateint has a probabilty of 75% getting into cancer. Similarly if threshold is 0.5 and prababilty is 0.25, then a pateint has a probabilty of 25% getting into cancer.
+So this is more useful when we are dealing with categorical values. 
+
+Confusion Matrix:
+
+Confusion matrix is used to know how many values are predicted correct ("yes") and how many number of values predicted "no"
+
+#(1,1) address value says: Actual Value and predicted value "yes"  
+# (1,2) :Actual Value "yes "and predicted "no"  || (2,1)  Actual Value "yes "and predicted "no"
+# (2,2) Actual Value "no "and predicted "no"
+# Right diagonal shows all the incorrect prediction || left diagonal show correct predictions  
+
+# to find out the model accuracy: Divide left diagonal values with all the values of the matrix
